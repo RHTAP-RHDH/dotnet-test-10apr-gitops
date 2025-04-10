@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: dotnet-test-10apr-gitops-repository
+spec:
+  url: https://github.com/RHTAP-RHDH/dotnet-test-10apr-gitops
